@@ -28,7 +28,7 @@ $(".mySlider").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2200,
         infinite: true,
         dots: false,
