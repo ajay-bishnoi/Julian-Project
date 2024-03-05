@@ -612,16 +612,14 @@
   border-image-slice: 1;
 }
 .navItem.active > h3 {
-  opacity: 1;
+  opacity: 1 !important;
   background: var(--goldmix-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* .navItem svg {
-  margin-left: 24px;
-} */
 .navItem.active svg path {
-  fill: url("#paint0_linear_41260_10391");
+  fill: url("#paint0_linear_41260_10391") !important;
+  fill-opacity: 1;
 }
 .min-338 {
   min-width: 338px;
@@ -765,7 +763,7 @@
   background-image: url("./img/svg/plus.svg") !important;
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url("./img/svg/minus-img.webp") !important;
+  background-image: url("./img/svg/minus.svg") !important;
 }
 
 .accordion-item {
